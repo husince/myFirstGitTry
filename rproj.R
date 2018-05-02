@@ -2,4 +2,5 @@ head(iris)
 
 plot(x=iris$Sepal.Length,y=iris$Sepal.Width,xlab = 'sepal length', ylab = 'sepal width')
 
-corr(iris[,-3])
+
+hist(x=iris$Sepal.Length,xlab='sepal length')
