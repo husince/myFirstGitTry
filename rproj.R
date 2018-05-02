@@ -4,3 +4,5 @@ plot(x=iris$Sepal.Length,y=iris$Sepal.Width,xlab = 'sepal length', ylab = 'sepal
 
 cor(iris[,-5])
 pairs(iris[,-5])
+
+head('iris')
